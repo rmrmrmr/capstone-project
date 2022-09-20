@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+#mobileHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 55px;
+  margin: 16px 0;
+  justify-content: center;
+}
+
+#mobMenuPH {
+  height: 17.6px;
+  align-self: center;
+  justify-self: flex-start;
+}
+
+#mobileMenu {
+  width: 20px;
+  height: 17.6px;
+  justify-self: start;
+}
+
+#mobLogo {
+  justify-self: center;
+}
