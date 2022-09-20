@@ -1,30 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Reem+Kufi+Fun:wght@500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Reem+Kufi+Fun:wght@500;600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 body {
   font-family: Lato, sans-serif;
+  background-color: rgba(163, 153, 153, 0.234);
+}
+
+p {
+  margin: 0;
 }
 
 #mobileHeader {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
   width: 100%;
   height: 55px;
   margin: 16px 0;
-  justify-content: center;
+  align-content: center;
 }
 
 #mobMenuPH {
   height: 17.6px;
   align-self: center;
-  justify-self: flex-start;
+  padding-left: 20px;
 }
 
 #mobileMenu {
   width: 20px;
   height: 17.6px;
-  justify-self: start;
 }
 
 #mobLogo {
+  grid-column: 2/3;
   justify-self: center;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 20px;
+  margin-bottom: 0;
+}
+
+#greeting {
+  color: #f34910;
+  display: flex;
+  font-weight: 500;
+  margin: 0;
+}
+
+#name {
+  /* font-family: 'COCOGOOSE', sans-serif; */
+  font-weight: 700;
+  font-size: 32px;
+  background-image: url(images/textbg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+#description {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  margin: 20px 4px 0 4px;
+  padding: 10px;
+  border: solid white 2px;
+  border-radius: 4px;
+}
+
+
+
+#datesPH {
+  padding-top: 20px;
+}
+
+#date {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#venue {
+  font-size: 13px;
+  margin-bottom: 90px;
+}
+
+#mainProgram {
+  background-color: #272a32;
+  color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainTitle{
+  font-size: 30px;
+  padding-top: 30px;
+  height: auto;
+}
+
+#guideBar {
+  border-bottom:solid #f34910;
+  border-width: 4px;
+  height: 8px;
+  width: 35%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#programList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 0;
+  align-items: center;
+}
+
+.programFeat {
+  width: 95%;
+  padding: 8px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4e525b;
+  border-radius: 2px;
+  /* border: solid wheat; */
+}
+
+.featureName {
+  color: #ec5242;
+  font-size: 16px;
+  font-weight: 700;
+  width: 74px;
+  height: fit-content;
+}
+
+.featureDesc {
+  width: 55%;
+}
+
+#joinBttn {
+  padding: 20px;
+  background: #ec5242;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 2px;
 }
