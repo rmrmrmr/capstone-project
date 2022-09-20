@@ -50,7 +50,6 @@ p {
 }
 
 #name {
-  /* font-family: 'COCOGOOSE', sans-serif; */
   font-weight: 700;
   font-size: 32px;
   background-image: url(images/textbg.jpg);
@@ -99,12 +98,12 @@ p {
   height: auto;
 }
 
-#guideBar {
+.guideBar {
   border-bottom: solid #f34910;
   border-width: 4px;
   height: 8px;
-  width: 35%;
-  border-radius: 8px;
+  width: 30%;
+  border-radius: 5px;
   margin-bottom: 10px;
 }
 
@@ -148,6 +147,107 @@ p {
   text-decoration: none;
   color: whitesmoke;
   font-weight: 500;
+  margin: 20px 0 36px 0;
   margin-top: 20px;
+  margin-bottom: 36px;
   border-radius: 2px;
+}
+
+#featuredSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  background-color: rgba(163, 153, 153, 0.234);
+
+}
+
+#speakersTitle {
+  font-size: 30px;
+  padding-top: 30px;
+  height: auto;
+}
+
+#speakersList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  gap: 15px;
+}
+
+.speakerCard {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  gap: 2%;
+}
+
+.speakerImage {
+  width: 30%;
+  aspect-ratio: 1 / 1;
+
+}
+
+.speakerTxt {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  max-height: 107px;
+}
+
+.speakerName {
+  font-size: 20px;
+  width: 100%;
+  height: 25px;
+}
+
+.speakerRes {
+  width: 100%;
+  font-size: 11px;
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.speakerDesc {
+  width: 100%;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.speakerBar {
+  border-top: solid gray 1px;
+  width: 15%;
+}
+
+.speakersBttn {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: solid rgba(128, 128, 128, 0.751) 1px;
+  border-radius: 2px;
+  background-color: rgba(170, 162, 162, 0.234);
+}
+
+.speakersBttnTxt {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#moreArrow {
+  height: 10px;
+}
+
+#lessBttn {
+  display: none;
+}
+
+#lessArrow {
+  height: 10px;
+  transform: rotate(180deg);
 }
