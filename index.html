@@ -9,12 +9,91 @@
   <title>Document</title>
 </head>
 <body>
-  <header id="mobileHeader">
+  <header class="mobileHeader">
     <nav id="mobMenuPH">
       <input type="image" id="mobileMenu" src="images/mobile_menu.png" alt="Menu">
     </nav>
-    <img id="mobLogo" src="images/logo.png" alt="logo" alt="Logo">
+    <img id="mobLogo" src="images/mobileMenu.svg" alt="logo" alt="Logo">
   </header>
+  <section id="headline">
+    <div id="title">
+      <h1 id="greeting">"Hello, caring world!"</h1>
+      <h2 id="name">Climate Change<br>Global Summit<br>2022</h2>
+    </div>
+    <p class="description">
+      A crucial gathering for climate leaders from all around the world. Some of the most urgent problems that we as humanity have to address will be discussed January 2023, in Mexico City
+    </p>
+    <div id="datesPH">
+      <p id="date">2023.17.01(TUE) ~ 22(SUN)</p>
+      <p id="venue">@  National Convention Center D'Rubi, Art Center and more</p>
+    </div>
+  </section>
+  <section id="mainProgram">
+    <p id="mainTitle">Main Program</p>
+    <div class="guideBar"></div>
+    <ul id="programList">
+      <li class="programFeat">
+        <img class="featureIcon" src="images/lectureIcon.png" alt="Lecture Icon">
+        <p class="featureName">Lecture</p>
+        <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </li>
+      <li class="programFeat">
+        <img class="featureIcon" src="images/exhibitionIcon.png" alt="Lecture Icon">
+        <p class="featureName">Exhibition</p>
+        <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </li>
+      <li class="programFeat">
+        <img class="featureIcon" src="images/forumIcon.png" alt="Lecture Icon">
+        <p class="featureName">Forum</p>
+        <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </li>
+      <li class="programFeat">
+        <img class="featureIcon" src="images/workshopIcon.png" alt="Lecture Icon">
+        <p class="featureName">Workshop</p>
+        <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </li>
+      <li class="programFeat">
+        <img class="featureIcon" src="images/igniteIcon.png" alt="Lecture Icon">
+        <p class="featureName">Ignite</p>
+        <p class="featureDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </li>
+    </ul>
+    <a id="joinBttn" href="https://unfccc.int/cop27?gclid=CjwKCAjwyaWZBhBGEiwACslQo3IVsZebuCKcNjw_td1Y32zy3vmvXMGsLxB7l-1uSk5N1qQHkEUDUhoCSjQQAvD_BwE#attend">Join CC Global Summit 2023</a>
+  </section>
+  <section id="featuredSpeakers">
+    <p id="speakersTitle">
+      Featured Speakers
+    </p>
+    <div class="guideBar"></div>
+    <div id="speakersList">
+      <div class="speakerCard">
+        <img class="speakerImage" src="images/speaker1.png" alt="" srcset="">
+        <div class="speakerTxt">
+          <p class="speakerName">Yochai Benkler</p>
+          <p class="speakerRes">Berkham Professor of Entrepeneurial Legal Studies at Harvard Law School</p>
+          <div class="speakerBar"></div>
+          <p class="speakerDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+      <div class="speakerCard">
+        <img class="speakerImage" src="images/speaker2.png" alt="" srcset="">
+        <div class="speakerTxt">
+          <p class="speakerName">SohYeong Noh</p>
+          <p class="speakerRes">Director of Art Centre Nabi and a Board member of CC Korea</p>
+          <div class="speakerBar"></div>
+          <p class="speakerDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <button id="moreBttn" class="speakersBttn" type="submit">
+      <p id="moreTxt" class="speakersBttnTxt">MORE</p>
+      <img id="moreArrow" src="images/moreBttnArrow.png" alt="arrow">
+    </button>
+    <button id="lessBttn" class="speakersBttn" type="submit">
+      <p id="lessTxt" class="speakersBttnTxt">LESS</p>
+      <img id="lessArrow" src="images/moreBttnArrow.png" alt="arrow">
+    </button>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="main.js"></script>
 </body>
