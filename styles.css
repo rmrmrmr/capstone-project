@@ -3,7 +3,7 @@
 
 body {
   font-family: Lato, sans-serif;
-  background-color: rgba(163, 153, 153, 0.234);
+  background-color: rgba(177, 167, 167, 0.234);
 }
 
 p {
@@ -55,8 +55,9 @@ p {
 #name {
   font-weight: 700;
   font-size: 32px;
-  background-image: url(images/textbg.jpg);
+  background: url(images/textbg.jpg);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
 }
@@ -75,6 +76,7 @@ p {
 #aboutDesc {
   text-align: center;
   padding: 10px 15px;
+  width: 330px;
 }
 
 #datesPH {
@@ -167,7 +169,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
-  background-color: rgba(163, 153, 153, 0.234);`
+  background-color: rgba(163, 153, 153, 0.234);
 }
 
 #speakersTitle {
@@ -266,7 +268,7 @@ p {
   flex-direction: column;
   margin: 15px 20px;
   margin-bottom: 0;
-  padding-bottom: 125px;
+  padding-bottom: 80px;
 }
 
 #greeting2 {
@@ -286,8 +288,9 @@ p {
   width: 100%;
   font-weight: 700;
   font-size: 32px;
-  background-image: url(images/textbg.jpg);
+  background: url(images/textbg.jpg);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
   margin-bottom: 10px;
@@ -297,7 +300,7 @@ p {
   margin-top: 40px;
   font-size: 13px;
   text-align: center;
-  width: 88%;
+  width: 300px;
 }
 
 #contactMail {
@@ -307,4 +310,161 @@ p {
   font-weight: bold;
   text-decoration: underline;
   color: inherit;
+}
+
+#logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  padding-top: 30px;
+  border-bottom: solid rgba(128, 128, 128, 0.518) 0.2px;
+}
+
+#logoTitle {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 125%;
+  padding: 0 40px;
+}
+
+.divisionBar {
+  width: 15%;
+  height: 10px;
+  margin-top: 10px;
+  border-top: solid #f34910;
+}
+
+#logoTxt {
+  padding: 0 30px;
+  text-align: center;
+  line-height: 120%; 
+  font-size: 15px;
+  margin-top: 10px;
+  width: 362px;
+}
+
+#logoImg {
+  margin: 40px 0;
+  border: solid rgba(128, 128, 128, 0.518) 0.5px;
+}
+
+#pastSummits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: whitesmoke; */
+  padding-top: 30px;
+  border-bottom: solid rgba(128, 128, 128, 0.518) 0.2px;
+  height: auto;
+}
+
+#pastTitle {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 125%;
+  padding: 0 40px;
+  width: 369px;
+}
+
+#pastDesc {
+  padding: 0 30px;
+  text-align: center;
+  line-height: 100%; 
+  font-size: 15px;
+  margin-top: 10px;
+  width: 351px;
+}
+
+#pastImgPH {
+  height: auto;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pastImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 190px;
+  width: 350px;
+}
+
+#pastImg1 {
+  background: url('images/past1.jpg');
+  background-color: #f36b3ec9;
+  background-blend-mode: multiply;
+  backdrop-filter: blur(50px);
+}
+
+#pastImg2 {
+  background: url('images/past2.jpg');
+  background-color: #f36b3ec9;
+  background-blend-mode: multiply;
+  backdrop-filter: blur(50px);
+}
+
+.pastYear {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.pastSummit {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+#partners {
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 50px 0;
+}
+
+#partnerTitle {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+#partnersList {
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.partnerItem {
+  width: 100px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+#footerImgPH {
+  width: 360px;
+  display: flex;
+  align-items: center;
+}
+
+#footerImg {
+  width: 190px;
+}
+
+#footerTxt {
+  font-size: 13px;
 }
