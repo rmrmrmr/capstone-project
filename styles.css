@@ -16,6 +16,7 @@ p {
   width: 100%;
   height: 55px;
   margin: 12px 0 10px 0;
+
   /* margin-top: ; */
   align-content: center;
 }
@@ -57,7 +58,6 @@ p {
   font-size: 32px;
   background: url(images/textbg.jpg);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
 }
@@ -68,7 +68,7 @@ p {
   margin: 0;
   margin: 20px 4px 0 4px;
   padding: 10px;
-  border: solid rgb(247, 242, 242)2px;
+  border: solid rgb(247, 242, 242) 2px;
   border-radius: 4px;
   background-color: rgb(247, 242, 242);
 }
@@ -197,7 +197,6 @@ p {
 .speakerImage {
   width: 30%;
   aspect-ratio: 1 / 1;
-
 }
 
 .speakerTxt {
@@ -237,7 +236,6 @@ p {
   width: 95%;
   padding: 10px;
   justify-content: center;
-  align-items: center;
   gap: 10px;
   border: solid rgba(128, 128, 128, 0.751) 1px;
   border-radius: 2px;
@@ -277,6 +275,7 @@ p {
   font-weight: 500;
   margin: 0;
   margin-bottom: 5px;
+  font-size: 28px;
 }
 
 #title2 {
@@ -290,7 +289,6 @@ p {
   font-size: 32px;
   background: url(images/textbg.jpg);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
   margin-bottom: 10px;
@@ -339,7 +337,7 @@ p {
 #logoTxt {
   padding: 0 30px;
   text-align: center;
-  line-height: 120%; 
+  line-height: 120%;
   font-size: 15px;
   margin-top: 10px;
   width: 362px;
@@ -354,6 +352,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* background-color: whitesmoke; */
   padding-top: 30px;
   border-bottom: solid rgba(128, 128, 128, 0.518) 0.2px;
@@ -372,7 +371,7 @@ p {
 #pastDesc {
   padding: 0 30px;
   text-align: center;
-  line-height: 100%; 
+  line-height: 100%;
   font-size: 15px;
   margin-top: 10px;
   width: 351px;
