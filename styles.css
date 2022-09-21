@@ -10,12 +10,13 @@ p {
   margin: 0;
 }
 
-#mobileHeader {
+.mobileHeader {
   display: grid;
   grid-template-columns: 15% 70% 15%;
   width: 100%;
   height: 55px;
-  margin: 16px 0;
+  margin: 16px 0 10px 0;
+  /* margin-top: ; */
   align-content: center;
 }
 
@@ -33,13 +34,24 @@ p {
 #mobLogo {
   grid-column: 2/3;
   justify-self: center;
+  width: 260px;
+  height: 60px;
 }
 
 #headline {
   display: flex;
   flex-direction: column;
-  margin: 10% 20px;
+  margin: 20px 20px;
   margin-bottom: 0;
+}
+
+
+#greeting2 {
+  width: 100%;
+  color: #f34910;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 #greeting {
@@ -58,14 +70,20 @@ p {
   margin: 0;
 }
 
-#description {
+.description {
   font-size: 16px;
-  font-weight: bold;
+  color: rgb(110, 108, 108);
   margin: 0;
   margin: 20px 4px 0 4px;
   padding: 10px;
-  border: solid white 2px;
+  border: solid rgb(247, 242, 242)2px;
   border-radius: 4px;
+  background-color: rgb(247, 242, 242);
+}
+
+#aboutDesc {
+  text-align: center;
+  padding: 10px 15px;
 }
 
 #datesPH {
@@ -80,7 +98,23 @@ p {
 
 #venue {
   font-size: 13px;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
+}
+
+#contactTxt {
+  margin-top: 40px;
+  font-size: 13px;
+  text-align: center;
+  width: 88%;
+}
+
+#contactMail {
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: inherit;
 }
 
 #mainProgram {
@@ -158,8 +192,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
-  background-color: rgba(163, 153, 153, 0.234);
-
+  background-color: rgba(163, 153, 153, 0.234);`
 }
 
 #speakersTitle {
@@ -250,4 +283,29 @@ p {
 #lessArrow {
   height: 10px;
   transform: rotate(180deg);
+}
+
+#headline2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1% 20px;
+  margin-bottom: 0;
+  padding-bottom: 125px;
+}
+
+#title2 {
+  width: 100%;
+  text-align: center;
+}
+
+#name2 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 32px;
+  background-image: url(images/textbg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  margin-bottom: 10px;
 }
