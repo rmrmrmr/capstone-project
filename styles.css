@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Reem+Kufi+Fun:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Reem+Kufi+Fun:wght@500;600;700;900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 body {
@@ -8,6 +8,10 @@ body {
 
 p {
   margin: 0;
+}
+
+.deskHeader {
+  display: none;
 }
 
 .mobileHeader {
@@ -162,6 +166,10 @@ p {
   margin-top: 20px;
   margin-bottom: 36px;
   border-radius: 2px;
+}
+
+#wholeProgram {
+  display: none;
 }
 
 #featuredSpeakers {
@@ -466,4 +474,148 @@ p {
 
 #footerTxt {
   font-size: 13px;
+}
+
+@media all and (min-width: 768px) {
+  .mobileHeader {
+    display: none;
+  }
+
+  .deskHeader {
+    display: flex;
+    width: 100%;
+    height: 38px;
+    background: #3e3e3e;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .topMenu1 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 15%;
+  }
+
+  .topMenuTxt {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 0.813em;
+  }
+
+  .topMenu2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    width: 100%;
+    padding: 0 15% 0 12%;
+    background: white;
+    height: 80px;
+    gap: 40px;
+  }
+
+  #headline {
+    margin: 0px 15%;
+    padding-top: 140px;
+  }
+  
+  .deskImgPH {
+    margin-right: auto;
+  }
+
+  .deskImg {
+    height: 80px;
+  }
+
+  .topMenu2Txt {
+    text-decoration: none;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 700;
+    justify-self;
+  }
+
+  #greeting {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #name {
+    font-size:80px;
+    line-height: 90%;
+    font-weight: 900;
+  }
+
+  .description {
+    width: 60%;
+    border: solid white 5px;
+    padding: 25px;
+    background-color: inherit;
+  }
+
+  #date {
+    font-size: 40px;
+    color: #535353;
+  }
+
+  #venue {
+    font-size: 20px;
+    font-weight: 700;
+    color: #535353;
+  }
+
+  #mainTitle {
+    font-size: 30px;
+  }
+
+  .guideBar {
+    width: 10%;
+  }
+
+  #programList {
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
+    padding: 0 15%;
+    width: 100%;
+    /* flex-wrap: wrap; */
+  }
+
+  .programFeat {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .featureName {
+    text-align: center;
+  }
+
+  .featureDesc {
+    width: 100%;
+    text-align: center;
+  }
+
+  #joinBttn {
+    display: none;
+  }
+
+  #wholeProgram {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0 36px 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  }
+
+  #mainProgram {
+    padding: 50px 0;
+  }
+
 }
