@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Reem+Kufi+Fun:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Reem+Kufi+Fun:wght@500;600;700;900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 body {
@@ -8,6 +8,26 @@ body {
 
 p {
   margin: 0;
+}
+
+.deskHeader {
+  display: none;
+}
+
+#partnersDesk {
+  display: none;
+}
+
+#aboutDescDesk {
+  display: none;
+}
+
+#logoTxtDesk {
+  display: none;
+}
+
+#footer3 {
+  display: none;
 }
 
 .mobileHeader {
@@ -162,6 +182,10 @@ p {
   margin-top: 20px;
   margin-bottom: 36px;
   border-radius: 2px;
+}
+
+#wholeProgram {
+  display: none;
 }
 
 #featuredSpeakers {
@@ -341,6 +365,7 @@ p {
   font-size: 15px;
   margin-top: 10px;
   width: 362px;
+  display: inline;
 }
 
 #logoImg {
@@ -352,8 +377,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* background-color: whitesmoke; */
+  justify-content: center;
   padding-top: 30px;
   border-bottom: solid rgba(128, 128, 128, 0.518) 0.2px;
   height: auto;
@@ -435,7 +459,7 @@ p {
   color: whitesmoke;
 }
 
-#partnersList {
+.partnersList {
   display: flex;
   width: 350px;
   flex-wrap: wrap;
@@ -445,7 +469,11 @@ p {
 }
 
 .partnerItem {
-  width: 100px;
+  max-width: 100px;
+}
+
+#footer2 {
+  display: none;
 }
 
 #footer {
@@ -454,16 +482,374 @@ p {
   padding: 30px 0;
 }
 
-#footerImgPH {
+.footerImgPH {
   width: 360px;
   display: flex;
   align-items: center;
 }
 
-#footerImg {
+.footerImg {
   width: 190px;
 }
 
-#footerTxt {
+.footerTxt {
   font-size: 13px;
+}
+
+@media all and (min-width: 768px) {
+  .mobileHeader {
+    display: none;
+  }
+
+  .deskHeader {
+    display: flex;
+    width: 100%;
+    height: 38px;
+    background: #3e3e3e;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .topMenu1 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 15%;
+  }
+
+  .topMenuTxt {
+    text-decoration: none;
+    color: #efefef;
+    font-size: 0.813em;
+  }
+
+  .topMenu2 {
+    display: flex;
+    align-items: center;
+
+    /* justify-content: end; */
+    width: 100%;
+    padding: 0 15% 0 12%;
+    background: white;
+    height: 80px;
+    gap: 40px;
+    box-shadow: 0 0 10px 0 gray;
+  }
+
+  #headline {
+    margin: 0 15%;
+    padding-top: 140px;
+  }
+
+  .deskImgPH {
+    margin-right: auto;
+  }
+
+  .deskImg {
+    height: 80px;
+  }
+
+  .topMenu2Txt {
+    text-decoration: none;
+    color: #999;
+    font-size: 16px;
+    font-weight: 700;
+    justify-self: center;
+  }
+
+  #greeting {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #name {
+    font-size: 80px;
+    line-height: 90%;
+    font-weight: 900;
+  }
+
+  .description {
+    width: 60%;
+    border: solid white 5px;
+    padding: 25px;
+    background-color: inherit;
+  }
+
+  #date {
+    font-size: 40px;
+    color: #535353;
+  }
+
+  #venue {
+    font-size: 20px;
+    font-weight: 700;
+    color: #535353;
+  }
+
+  #mainTitle {
+    font-size: 38px;
+  }
+
+  .guideBar {
+    width: 10%;
+  }
+
+  #programList {
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
+    padding: 0 14%;
+    width: 100%;
+  }
+
+  .programFeat {
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .featureName {
+    text-align: center;
+  }
+
+  .featureDesc {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #joinBttn {
+    display: none;
+  }
+
+  #wholeProgram {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 36px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  #mainProgram {
+    padding: 20px 0 40px 0;
+    gap: 10px;
+  }
+
+  #featuredSpeakers {
+    padding: 20px 0 40px 0;
+    gap: 10px;
+  }
+
+  #speakersTitle {
+    font-size: 38px;
+  }
+
+  #speakersList {
+    padding: 0 15%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .speakerCard {
+    width: 49%;
+  }
+
+  .speakerName {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .speakerRes {
+    font-size: 14px;
+  }
+
+  .speakerDesc {
+    font-size: 16px;
+  }
+
+  .speakerBar {
+    border-width: 2px;
+  }
+
+  .speakerTxt {
+    justify-content: space-between;
+    gap: 2px;
+  }
+
+  #moreBttn {
+    display: none;
+  }
+
+  #partnersDesk {
+    display: flex;
+    background-color: #414246;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 11%;
+  }
+
+  #partnerTitleDesk {
+    font-size: 38px;
+    color: whitesmoke;
+  }
+
+  .partnersList {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .partnerItem {
+    max-width: 200px;
+  }
+
+  #footer2 {
+    display: flex;
+    padding: 0 15%;
+    align-content: center;
+  }
+
+  .footerImgPH {
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .footerImg {
+    height: 150px;
+    width: 300px;
+  }
+
+  .footerTxt {
+    font-size: 15px;
+  }
+
+  #footerTxt2 {
+    font-size: 12px;
+    line-height: 100%;
+  }
+
+  #headline2 {
+    padding: 140px 15% 80px 15%;
+  }
+
+  #greeting2 {
+    display: none;
+  }
+
+  #name2 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  #aboutDesc {
+    display: none;
+  }
+
+  #aboutDescDesk {
+    display: inline;
+    text-align: center;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  #contactTxt {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  #contactMail {
+    font-size: 18px;
+  }
+
+  #logoSection {
+    gap: 10px;
+    padding-bottom: 50px;
+  }
+
+  #logoTitle {
+    font-size: 38px;
+  }
+
+  #logoTxt {
+    font-size: 16px;
+    display: none;
+  }
+
+  .divisionBar {
+    width: 10%;
+  }
+
+  #logoTxtDesk {
+    display: inline;
+    text-align: center;
+    line-height: 130%;
+    font-size: 16px;
+    width: 100%;
+    color: rgba(39, 42, 49, 0.7);
+  }
+
+  #logoImg {
+    width: 40%;
+  }
+
+  #pastTitle {
+    font-size: 38px;
+  }
+
+  #pastSummits {
+    gap: 10px;
+    padding: 30px 15%;
+  }
+
+  #pastDesc {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #pastImgPH {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .pastImg {
+    width: 450px;
+    height: 250px;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #footer3 {
+    display: flex;
+    padding: 0 15%;
+    align-content: center;
+    background: #2e2e2e;
+  }
+
+  #footerTxt11 {
+    font-size: 15px;
+    color: white;
+  }
+
+  #footerTxt21 {
+    font-size: 12px;
+    line-height: 100%;
+    color: white;
+  }
 }
