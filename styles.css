@@ -18,6 +18,18 @@ p {
   display: none;
 }
 
+#aboutDescDesk {
+  display: none;
+}
+
+#logoTxtDesk {
+  display: none;
+}
+
+#footer3 {
+  display: none;
+}
+
 .mobileHeader {
   display: grid;
   grid-template-columns: 15% 70% 15%;
@@ -353,6 +365,7 @@ p {
   font-size: 15px;
   margin-top: 10px;
   width: 362px;
+  display: inline;
 }
 
 #logoImg {
@@ -364,8 +377,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* background-color: whitesmoke; */
+  justify-content: center;
   padding-top: 30px;
   border-bottom: solid rgba(128, 128, 128, 0.518) 0.2px;
   height: auto;
@@ -522,6 +534,8 @@ p {
     background: white;
     height: 80px;
     gap: 40px;
+    box-shadow: 0 0 10px 0 gray;
+
   }
 
   #headline {
@@ -721,5 +735,127 @@ p {
   #footerTxt2 {
     font-size: 12px;
     line-height: 100%;
+  }
+
+  #headline2 {
+    padding: 140px 15% 80px 15%;
+  }
+
+  #greeting2 {
+    display: none;
+  }
+
+  #name2 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+
+  #aboutDesc {
+    display: none;
+  }
+
+  #aboutDescDesk {
+    display: inline;
+    text-align: center;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  #contactTxt {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  #contactMail {
+    font-size: 18px;
+  }
+
+  #logoSection {
+    gap: 10px;
+    padding-bottom: 50px;
+  }
+
+  #logoTitle {
+    font-size: 38px;
+  }
+
+  #logoTxt {
+    font-size: 16px;
+  }
+
+  .divisionBar {
+    width: 10%;
+  }
+
+  #logoTxt {
+    display: none;
+  }
+
+  #logoTxtDesk {
+    display: inline;
+    text-align: center;
+    line-height: 130%;
+    font-size: 16px;
+    width: 100%;
+    color: rgba(39, 42, 49, 0.7);
+  }
+
+  #logoImg {
+    width: 40%;
+  }
+
+  #pastTitle {
+    font-size: 38px;
+  }
+
+  #pastSummits {
+    gap: 10px;
+  }
+
+  #pastDesc {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #pastImgPH {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .pastImg {
+    width: 450px;
+    height: 250px;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #footer3 {
+    display: flex;
+    padding: 0 15%;
+    align-content: center;
+    background: #2e2e2e;
+  }
+
+  #footerTxt11 {
+    font-size: 15px;
+    color: white;
+  }
+
+  #footerTxt21 {
+    font-size: 12px;
+    line-height: 100%;
+    color: white;
+  }
+
+  #pastSummits {
+    padding: 30px 15%;
   }
 }
