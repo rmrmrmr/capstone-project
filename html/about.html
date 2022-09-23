@@ -12,9 +12,11 @@
 <body>
   <header class="mobileHeader">
     <nav id="mobMenuPH">
-      <input type="image" id="mobileMenu" src="../images/mobile_menu.png" alt="Menu">
+      <input type="image" id="mobileMenuAbt" src="../images/mobile_menu.png" alt="Menu">
     </nav>
-    <img id="mobLogo" src="../images/mobileMenu.svg" alt="logo" alt="Logo">
+    <a href="../index.html">
+      <img id="mobLogo" src="../images/mobileMenu.svg" alt="logo" alt="Logo">
+    </a>
   </header>
   <header class="deskHeader">
     <div class="topMenu1">
@@ -29,7 +31,7 @@
       <a class="logout topMenuTxt" href="../index.html">Logout</a>
     </div>
     <div class="topMenu2">
-      <a class="deskImgPH" href="index.html">
+      <a class="deskImgPH" href="../index.html">
         <img class="deskImg" src="../images/mobileMenu.svg" alt="CC Logo">
       </a>
       <a class="topMenu2Txt" href="about.html">About</a>
@@ -41,6 +43,23 @@
       
     </div>
   </header>
+  <section class="mobileMenu" id="mobMenuAbt">
+    <div class="mobMenuMain">
+      <div class="xButtonPH">
+        <input class="xButtonImg" id='xMenuBttn' type="image" src="../Images/xButton.svg" alt="CloseMenu">
+      </div>
+      <div class="mobMenuOptions">
+        <ul class="mobMenuList">
+          <li><a href="../index.html" class="mobMenuItem" id="AboutLink">Home</a></li>
+          <li><a href="#logoSection" class="mobMenuItem orangeText" id="logoLink">Official Logo</a></li>
+          <li><a href="#pastSummits" class="mobMenuItem" id="summitsLink">Past Summits</a></li>
+          <li><a href="#partners" class="mobMenuItem orangeText" id="partnersLink">Partners</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="mobMenuBG"></div>
+  </section>
   <section id="headline2">
     <div id="title2">
       <h1 id="greeting2">"Hello, caring world!"</h1>
@@ -118,6 +137,6 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="main.js"></script>
+  <script src="script2.js"></script>
 </body>
 </html>

@@ -45,7 +45,12 @@ p {
   padding-left: 20px;
 }
 
-#mobileMenu {
+#mobileMenuIndx {
+  width: 20px;
+  height: 17.6px;
+}
+
+#mobileMenuAbt {
   width: 20px;
   height: 17.6px;
 }
@@ -492,6 +497,85 @@ p {
 
 .footerTxt {
   font-size: 13px;
+}
+
+.mobileMenu {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.lr-menu {
+  animation-name: lr-menu;
+  animation-duration: 1s;
+}
+
+.mobMenuMain {
+  background-color: white;
+  height: 90%;
+}
+
+.mobMenuBG {
+  height: 10%;
+  background-color: rgba(128, 128, 128, 0.749);
+}
+
+.xButtonPH {
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.xButtonImg {
+  height: 14px;
+  width: 14px;
+  align-self: flex-end;
+  margin: 33px;
+  background-color: #fff;
+}
+
+.mobMenuList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 5px;
+}
+
+.mobMenuOptions {
+  flex-grow: 1;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+}
+
+.mobMenuItem {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 44px;
+  color: #3a4a42;
+  text-decoration: none;
+}
+
+.orangeText {
+  color: #ec5242;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@keyframes lr-menu {
+  from {
+    transform: translate(-100%, 0);
+  }
+
+  to {
+    transform: rotate(0);
+  }
 }
 
 @media all and (min-width: 768px) {

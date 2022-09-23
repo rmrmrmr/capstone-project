@@ -12,9 +12,11 @@
 <body>
   <header class="mobileHeader">
     <nav id="mobMenuPH">
-      <input type="image" id="mobileMenu" src="images/mobile_menu.png" alt="Menu">
+      <input type="image" id="mobileMenuIndx" src="images/mobile_menu.png" alt="Menu">
     </nav>
-    <img id="mobLogo" src="images/mobileMenu.svg" alt="logo" alt="Logo">
+    <a href="index.html">
+      <img id="mobLogo" src="images/mobileMenu.svg" alt="logo" alt="Logo">
+    </a>
   </header>
   <header class="deskHeader">
     <div class="topMenu1">
@@ -40,7 +42,22 @@
       <a class="topMenu2Txt" href="index.html">CC Campaign</a>
       
     </div>
-  </header>
+  </header> 
+  <section class="mobileMenu" id="mobMenuIndex">
+    <div class="mobMenuMain">
+      <div class="xButtonPH">
+        <input class="xButtonImg" id='xMenuBttn' type="image" src="Images/xButton.svg" alt="CloseMenu">
+      </div>
+      <div class="mobMenuOptions">
+        <ul class="mobMenuList">
+          <li><a href="html/about.html" class="mobMenuItem" id="AboutLink">About</a></li>
+          <li><a href="#mainProgram" class="mobMenuItem orangeText" id="mainProgramLink">Main Program</a></li>
+          <li><a href="#featuredSpeakers" class="mobMenuItem" id="featuredLink">Featured Speakers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mobMenuBG"></div>
+  </section>
   <section id="headline">
     <div id="title">
       <h1 id="greeting">"Hello, caring world!"</h1>
