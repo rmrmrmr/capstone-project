@@ -278,6 +278,10 @@ p {
   height: 10px;
 }
 
+#moreBttn {
+  display: flex;
+}
+
 #lessBttn {
   display: none;
 }
@@ -335,6 +339,10 @@ p {
   font-weight: bold;
   text-decoration: underline;
   color: inherit;
+}
+
+.speakerHide {
+  display: none;
 }
 
 #logoSection {
@@ -737,11 +745,12 @@ ul {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 40px;
+    gap: 10px;
+    margin-bottom: 30px;
   }
 
   .speakerCard {
-    width: 49%;
+    width: 45%;
   }
 
   .speakerName {
@@ -768,6 +777,10 @@ ul {
 
   #moreBttn {
     display: none;
+  }
+
+  .speakerHide {
+    display: flex;
   }
 
   #partnersDesk {
