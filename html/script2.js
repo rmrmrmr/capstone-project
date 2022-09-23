@@ -20,4 +20,3 @@ xMenuBttn.addEventListener('click', closeMobMenu);
 logo.addEventListener('click', closeMobMenu);
 pastSummits.addEventListener('click', closeMobMenu);
 partners.addEventListener('click', closeMobMenu);
-

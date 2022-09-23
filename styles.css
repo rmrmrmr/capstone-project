@@ -509,7 +509,6 @@ p {
   visibility: hidden;
 }
 
-
 .lr-menu {
   animation-name: lr-menu;
   animation-duration: 1s;
@@ -519,7 +518,6 @@ p {
   background-color: white;
   height: 90%;
 }
-
 
 .mobMenuBG {
   height: 10%;
@@ -574,6 +572,7 @@ ul {
   from {
     transform: translate(-100%, 0);
   }
+
   to {
     transform: rotate(0);
   }
