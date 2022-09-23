@@ -118,7 +118,9 @@ p {
 }
 
 #mainProgram {
-  background-color: #272a32;
+  background-color: #4649527b;
+  background-image: url('images/programBG.png');
+  background-blend-mode: multiply;
   color: whitesmoke;
   width: 100%;
   display: flex;
@@ -159,7 +161,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #4e525b;
+  background: #4e525b8a;
   border-radius: 2px;
 }
 
@@ -223,6 +225,7 @@ p {
   justify-content: space-between;
   width: 95%;
   gap: 2%;
+  margin: 13px 0;
 }
 
 .speakerImage {
@@ -253,6 +256,7 @@ p {
 .speakerDesc {
   width: 100%;
   font-size: 11px;
+  line-height: 95%;
   margin-top: 2px;
 }
 
@@ -738,6 +742,7 @@ ul {
   #featuredSpeakers {
     padding: 20px 0 40px 0;
     gap: 10px;
+    background: white;
   }
 
   #speakersTitle {
@@ -950,5 +955,11 @@ ul {
     font-size: 12px;
     line-height: 100%;
     color: white;
+  }
+
+  .campaign {
+    border:solid #f34910 3.5px;
+    color: #f34910;
+    padding: 3px 8px;
   }
 }
