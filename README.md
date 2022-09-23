@@ -47,7 +47,6 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to The Microverse Program!
 - The originial design was made by Cindy Shin. You can find it here: (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015/modules/192118207)
-- etc
 
 ## 📝 License
 
