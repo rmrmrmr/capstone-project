@@ -54,7 +54,7 @@ const speakersInfo = [
     image: 'images/speaker4.png',
     speakerName: 'Kilnam Chon',
     resume: 'Lorem, ipsum dolor.',
-    info: 'Lorem four ipsum dolor sit amet consectetur adipisicing elit. Eligendi reprehenderi stias quibusdam facilis voluptatibus repellendus ea vitae earum!',
+    info: 'Lorem four ipsum dolor sit  adipisicing elit. Eligendi repellendus ea vitae earum!',
   },
   {
     deskDisp: 'flex',

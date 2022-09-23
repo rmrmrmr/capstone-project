@@ -163,6 +163,10 @@ p {
   border-radius: 2px;
 }
 
+.programFeat:hover {
+  border: solid white;
+}
+
 .featureName {
   color: #ec5242;
   font-size: 16px;
