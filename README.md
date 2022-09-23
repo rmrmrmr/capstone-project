@@ -17,7 +17,7 @@
 
 ## Page Walkthrough
 
-[Walthrough Video]()
+[Walthrough Video](https://www.loom.com/share/ef578a3d9c624434aede36de3b529c6c)
 
 ## Getting Started
 
