@@ -80,12 +80,9 @@ const morBttn = document.getElementById('moreBttn');
 const lessBttn = document.getElementById('lessBttn');
 const listPH = document.getElementById('speakersList');
 
-morBttn.addEventListener('click', moreSpeakers);
-lessBttn.addEventListener('click', lessSpeakers);
-
 function createCards() {
   for (let i = 0; i < speakersInfo.length; i += 1) {
-    if(window.innerWidth >= 768) {
+    if (window.innerWidth >= 768) {
       const disp = speakersInfo[i].deskDisp;
       const spId = speakersInfo[i].id;
       const spImg = speakersInfo[i].image;
@@ -121,7 +118,7 @@ function createCards() {
       speakerCard.append(textPH);
       listPH.append(speakerCard);
     }
-    if(window.innerWidth < 768) {
+    if (window.innerWidth < 768) {
       const disp = speakersInfo[i].mobDisp;
       const spId = speakersInfo[i].id;
       const spImg = speakersInfo[i].image;
@@ -199,8 +196,10 @@ function hideSpeakersDesk() {
     spk4.style.display = 'none';
     spk5.style.display = 'none';
     spk6.style.display = 'none';
-    morBttn.style.display = 'flex'
+    morBttn.style.display = 'flex';
   }
 }
 
-window.addEventListener('resize', hideSpeakersDesk);  
+morBttn.addEventListener('click', moreSpeakers);
+lessBttn.addEventListener('click', lessSpeakers);
+window.addEventListener('resize', hideSpeakersDesk);
