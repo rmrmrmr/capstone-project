@@ -11,7 +11,7 @@
 - CSS
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://rmrmrmr.github.io/capstone-project/)
 
